@@ -38,15 +38,15 @@
 #define TimeToOpenSecondValve 7500
 #define TimeToCloseSecondValve 7500
 
-#define EnableStatusOfFirstValveOpen HIGH
-#define DisableStatusOfFirstValveOpen LOW
-#define EnableStatusOfFirstValveClose HIGH
-#define DisableStatusOfFirstValveClose LOW
+#define EnableStatusOfFirstValveOpen LOW
+#define DisableStatusOfFirstValveOpen HIGH
+#define EnableStatusOfFirstValveClose LOW
+#define DisableStatusOfFirstValveClose HIGH
 
-#define EnableStatusOfSecondValveOpen HIGH
-#define DisableStatusOfSecondValveOpen LOW
-#define EnableStatusOfSecondValveClose HIGH
-#define DisableStatusOfSecondValveClose LOW
+#define EnableStatusOfSecondValveOpen LOW
+#define DisableStatusOfSecondValveOpen HIGH
+#define EnableStatusOfSecondValveClose LOW
+#define DisableStatusOfSecondValveClose HIGH
 
 #define ManualMode HIGH
 #define AutomaticMode LOW
