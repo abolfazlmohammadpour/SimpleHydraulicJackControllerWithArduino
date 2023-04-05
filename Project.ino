@@ -120,7 +120,7 @@ void SecondValveOpenProgram(void) {
   digitalWrite((uint8_t)SecondValveOpenPin, (uint8_t)EnableStatusOfSecondValveOpen);
 }
 void SecondValveCloseProgram(void) {
-  digitalWrite((uint8_t)SecondValveOpenPin, (uint8_t)DisbaleStatusOfSecondValveOpen);
+  digitalWrite((uint8_t)SecondValveOpenPin, (uint8_t)DisableStatusOfSecondValveOpen);
   digitalWrite((uint8_t)SecondValveClosePin, (uint8_t)EnableStatusOfSecondValveClose);
   delay((unsigned long int)TimeToCloseSecondValve);
   digitalWrite((uint8_t)SecondValveClosePin, (uint8_t)DisableStatusOfSecondValveClose);
